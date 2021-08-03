@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="btn_celsius">Celsius</string>
+    <string name="btn_faranhite">Faranhite</string>
+    <string name="et_value" />
+    <string name="btn_calculate">Calculate</string>
+    <string name="et_final" />
+</resources>
