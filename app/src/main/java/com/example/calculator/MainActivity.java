@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
                 float temp = Float.parseFloat(temp_value);
 
                 if(btn_celsius.isChecked()){
-                    temp = calculation.convertCelciusToFahrenheit(temp);
-                }else if(btn_faranhite.isChecked()){
                     temp = calculation.convertFahrenheitToCelcius(temp);
+                }else if(btn_faranhite.isChecked()){
+                    temp = calculation.convertCelciusToFahrenheit(temp);
                 }else{
                     Toast.makeText( this, "Select Radio", Toast.LENGTH_LONG).show();
                     temp = 0.0f;
